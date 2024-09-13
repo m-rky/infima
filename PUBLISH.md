@@ -1,5 +1,7 @@
 # Publish process
 
+Using Yarn v4 (install it with `corepack enable`)
+
 On `main` (or a feature branch):
 
 1. `git pull`
@@ -21,3 +23,5 @@ yarn workspace infima publish
 yarn workspace postcss-preset-infima publish
 git push && git push --tags
 ```
+
+(if needed, run `yarn npm login` first)

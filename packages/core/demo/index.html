@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -340,7 +340,7 @@
               <nav class="navbar">
                 <div class="navbar__inner">
                   <div class="navbar__items">
-                    <a class="navbar__brand">Infima</a>
+                    <a class="navbar__brand" href="#url">Infima</a>
                     <a class="navbar__item navbar__link" href="#url">Docs</a>
                     <a class="navbar__item navbar__link" href="#url">
                       Tutorial
@@ -386,7 +386,7 @@
               <nav class="navbar navbar--dark">
                 <div class="navbar__inner">
                   <div class="navbar__items">
-                    <a class="navbar__brand">
+                    <a class="navbar__brand" href="#url">
                       <span class="navbar__title text--truncate">
                         Infima long long long long long long long long long long
                         long long long long long long long
@@ -456,7 +456,7 @@
                     </div>
                   </div>
                   <div class="navbar__items navbar__items--center">
-                    <a class="navbar__brand">Infima</a>
+                    <a class="navbar__brand" href="#url">Infima</a>
                   </div>
                   <div class="navbar__items navbar__items--right">
                     <div
@@ -575,7 +575,7 @@
                     <span class="footer__link-separator">&middot;</span>
                     <a class="footer__link-item" href="#url">Contribute</a>
                   </div>
-                  <div>Copyright © 2019 Facebook, Inc.</div>
+                  <div>Copyright © 2022 Meta Platforms, Inc.</div>
                 </div>
               </footer>
             </div>
@@ -649,10 +649,10 @@
                     <div class="margin-bottom--sm">
                       <img
                         class="footer__logo"
-                        alt="Facebook Open Source Logo"
-                        src="img/fb-oss-dark.png" />
+                        alt="Meta Open Source Logo"
+                        src="img/meta_opensource_logo.svg" />
                     </div>
-                    Copyright © 2019 Facebook, Inc.
+                    Copyright © 2022 Meta Platforms, Inc.
                   </div>
                 </div>
               </footer>
@@ -671,7 +671,7 @@
                     <span class="footer__link-separator">&middot;</span>
                     <a class="footer__link-item" href="#url">Contribute</a>
                   </div>
-                  <div>Copyright © 2019 Facebook, Inc.</div>
+                  <div>Copyright © 2022 Meta Platforms, Inc.</div>
                 </div>
               </footer>
             </div>
@@ -745,10 +745,10 @@
                     <div class="margin-bottom--sm">
                       <img
                         class="footer__logo"
-                        alt="Facebook Open Source Logo"
-                        src="img/fb-oss-light.png" />
+                        alt="Meta Open Source Logo"
+                        src="img/meta_opensource_logo_negative.svg" />
                     </div>
-                    Copyright © 2019 Facebook, Inc.
+                    Copyright © 2022 Meta Platforms, Inc.
                   </div>
                 </div>
               </footer>
@@ -1578,32 +1578,25 @@ const myFun = (x, y) =&gt; {
               </div>
               <div class="row margin-bottom--sm">
                 <div class="col">
-                  <button
-                    class="button button--outline button--active button--primary">
+                  <button class="button button--active button--primary">
                     Primary
                   </button>
-                  <button
-                    class="button button--outline button--active button--secondary">
+                  <button class="button button--active button--secondary">
                     Secondary
                   </button>
-                  <button
-                    class="button button--outline button--active button--success">
+                  <button class="button button--active button--success">
                     Success
                   </button>
-                  <button
-                    class="button button--outline button--active button--info">
+                  <button class="button button--active button--info">
                     Info
                   </button>
-                  <button
-                    class="button button--outline button--active button--warning">
+                  <button class="button button--active button--warning">
                     Warning
                   </button>
-                  <button
-                    class="button button--outline button--active button--danger">
+                  <button class="button button--active button--danger">
                     Danger
                   </button>
-                  <button
-                    class="button button--outline button--active button--link">
+                  <button class="button button--active button--link">
                     Link
                   </button>
                 </div>
@@ -2283,6 +2276,28 @@ const myFun = (x, y) =&gt; {
                   </li>
                   <li class="breadcrumbs__item breadcrumbs__item--active">
                     <a class="breadcrumbs__link" href="#url">Breadcrumb</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumbs">
+                <ul class="breadcrumbs breadcrumbs--lg">
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="#url">Breadcrumbs</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <span class="breadcrumbs__link">Span Item (no link)</span>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="#url">Link Item</a>
+                  </li>
+                  <li class="breadcrumbs__item breadcrumbs__item--active">
+                    <a class="breadcrumbs__link" href="#url"
+                      >Link Item active</a
+                    >
                   </li>
                 </ul>
               </nav>
@@ -2999,9 +3014,9 @@ let myFun = (x, y) =&gt; {
             <img
               class="footer__logo"
               alt="Facebook Open Source Logo"
-              src="img/fb-oss-dark.png" />
+              src="img/meta_opensource_logo_negative.svg" />
           </div>
-          Copyright © 2019 Facebook, Inc.
+          Copyright © 2022 Meta Platforms, Inc.
         </div>
       </div>
     </footer>
